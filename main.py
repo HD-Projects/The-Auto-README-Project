@@ -1,8 +1,7 @@
+import md
+
+md.theString = md.theString+"# "+input("Title\n")
+md.choose()
 
 
-MDString = "# "+input("Title\n")
-
-print(MDString)
-fileToOpen = open("README.md", "w")
-fileToOpen.write(MDString)
-fileToOpen.close()
+print(md.theString)
